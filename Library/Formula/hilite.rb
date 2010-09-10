@@ -5,8 +5,9 @@ class Hilite <Formula
   version '1.5'
   homepage 'http://sourceforge.net/projects/hilite/'
   md5 '0214a3ef553cf4cf1e41f9c3bf93ca83'
+  
   def install
-	system "cc hilite.c -o hilite"
-	bin.install 'hilite'
+    system "cc hilite.c -o hilite"
+    bin.install 'hilite'
   end
 end
